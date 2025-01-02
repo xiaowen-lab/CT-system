@@ -115,7 +115,7 @@ if model:
         st.write(content[current_lang]['system_description'])
 
         # 显示系统Logo在系统介绍下方
-        st.image('https://github.com/xiaowen-lab/Stroke-CT-Diagnosis-Prediction-System/blob/main/stroke-logo.jpg', use_container_width=True)
+        st.image('https://raw.githubusercontent.com/xiaowen-lab/CT-system/main/logo.jpg', use_container_width=True)
 
         # 显示上传框提示
         st.write(content[current_lang]['upload_prompt'])
